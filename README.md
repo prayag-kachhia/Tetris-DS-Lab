@@ -1,52 +1,44 @@
-# Tetris Game in C++
+# Tetris Console Game
 
-## Description
-
-This project is a simple Tetris game implemented in C++ using the Windows Console. It features tetromino shapes, game mechanics like rotation, movement, collision detection, line clearing, and a scoring system.
+This is a simple Tetris-like game implemented in C++ using the Windows Console API. The game features different Tetromino shapes, real-time movement, rotation, and a scoring system.
 
 ## Features
+- **Classic Tetris Gameplay**: Move and rotate falling Tetrominoes to clear lines.
+- **Real-time Controls**: Supports arrow keys and WASD for movement and rotation.
+- **Hard Drop**: Instantly drop the Tetromino using the spacebar.
+- **Scoring System**: Earn points by clearing lines.
+- **High Score Tracking**: Keeps track of the highest score within a session.
+- **Color-coded Tetrominoes**: Each Tetromino is displayed in a unique color.
 
-- **Seven Tetromino Shapes** (I, O, T, L, J, S, Z)
-- **Keyboard Controls**
-  - Left Arrow (`←`): Move left
-  - Right Arrow (`→`): Move right
-  - Up Arrow (`↑`): Rotate
-  - Down Arrow (`↓`): Soft drop
-  - Space (` `): Hard drop
-  - Escape (`Esc`): Quit the game
-- **Automatic Piece Drop** based on level speed
-- **Line Clearing** and Scoring System
-- **Dynamic Leveling System** (Level increases as lines are cleared)
-- **Frame Optimization** using Console Cursor Positioning
+## Controls
+- **Arrow Keys / WASD**: Move and rotate Tetrominoes.
+- **Spacebar**: Hard drop the Tetromino.
+- **R**: Restart after game over.
+- **X**: Exit the game.
 
-## Installation
-
-1. **Clone the repository** or download the source files.
-2. **Compile the code** using a C++ compiler (such as MinGW g++ or MSVC).
-   ```sh
-   g++ -o tetris tetris.cpp -std=c++11
-   ```
-3. **Run the executable**:
-   ```sh
-   ./tetris
-   ```
+## Screenshot
+![Tetris Console Game](./Screenshot%202025-03-27%20151845.png)
 
 ## Requirements
+- Windows OS
+- C++ Compiler (e.g., MinGW, MSVC)
+- Console with color support
 
-- Windows OS (due to `windows.h` usage)
-- A C++ compiler supporting C++11 or later
-- Console with keyboard input
+## How to Compile and Run
+1. Open a terminal or command prompt.
+2. Compile the program using a C++ compiler:
+   ```sh
+   g++ tetris.cpp -o tetris.exe
+   ```
+3. Run the executable:
+   ```sh
+   tetris.exe
+   ```
 
-## How It Works
+## Future Enhancements
+- Implementing a pause feature.
+- Adding music and sound effects.
+- Implementing different difficulty levels.
 
-1. The game initializes a 10x20 grid.
-2. A random Tetromino spawns at the top.
-3. Players move, rotate, or drop the Tetromino.
-4. If the Tetromino lands, it merges with the board.
-5. Full lines are cleared, and the score is updated.
-6. The game continues until the pieces reach the top.
-
-##
-
-##
+Enjoy playing the Tetris Console Game!
 
