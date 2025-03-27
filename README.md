@@ -15,8 +15,8 @@ This is a simple Tetris-like game implemented in C++ using the Windows Console A
 - **Spacebar**: Hard drop the Tetromino.
 - **R**: Restart after game over.
 - **X**: Exit the game.
-
-
+## Screenshot
+Link - "https://github.com/prayag-kachhia/Tetris-DS-Lab/blob/main/Screenshot%202025-03-27%20151845.png"
 
 ## Requirements
 - Windows OS
