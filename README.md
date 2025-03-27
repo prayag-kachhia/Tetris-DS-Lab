@@ -16,8 +16,7 @@ This is a simple Tetris-like game implemented in C++ using the Windows Console A
 - **R**: Restart after game over.
 - **X**: Exit the game.
 
-## Screenshot
-![Tetris Console Game](./Screenshot%202025-03-27%20151845.png)
+
 
 ## Requirements
 - Windows OS
